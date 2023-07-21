@@ -21,6 +21,7 @@ router.post('/post', (req, res, next) => {
 router.put('/post/:userId/:postId', (req, res, next) => {
     console.log('this is signup!', new Date());
     res.send('post created');
+    
 })
 // DELETE  /api/v1/post/:userId/:postId
 router.delete('/post/:userId/:postId', (req, res, next) => {
